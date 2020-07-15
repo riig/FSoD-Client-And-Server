@@ -953,7 +953,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         this.addTextLine.dispatch(ChatMessage.make(Parameters.CLIENT_CHAT_NAME, TextKey.CHAT_CONNECTED));
         this.encryptConnection();
         var _local_2:Hello = (this.messages.require(HELLO) as Hello);
-        _local_2.buildVersion_ = ((Parameters.BUILD_VERSION + ".") + "0");
+        _local_2.buildVersion_ = ((Parameters.BUILD_VERSION + ".") + Parameters.MINOR_VERSION);
         _local_2.gameId_ = gameId_;
         _local_2.guid_ = this.rsaEncrypt(_local_1.getUserId());
         _local_2.password_ = this.rsaEncrypt(_local_1.getPassword());

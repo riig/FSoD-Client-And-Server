@@ -46,7 +46,7 @@ public class Parameters {
     public static const PRIVACY_POLICY_URL:String = "http://legal.decagames.io/privacy";
     public static const RANDOM1:String = "311f80691451c71b09a13a2a6e";
     public static const RANDOM2:String = "72c5583cafb6818995cbd74b80";
-    public static const RSA_PUBLIC_KEY:String = ((((("-----BEGIN PUBLIC KEY-----\n" + "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCKFctVrhfF3m2Kes0FBL/JFeO") + "cmNg9eJz8k/hQy1kadD+XFUpluRqa//Uxp2s9W2qE0EoUCu59ugcf/p7lGuL99Uo") + "SGmQEynkBvZct+/M40L0E0rZ4BVgzLOJmIbXMp0J4PnPcb6VLZvxazGcmSfjauC7") + "F3yWYqUbZd/HCBtawwIDAQAB\n") + "-----END PUBLIC KEY-----");
+    public static const RSA_PUBLIC_KEY:String = ((((("-----BEGIN PUBLIC KEY-----\n" + "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbqweYUxzW0IiCwuBAzx6Htskr") + "hWW+B0iX4LMu2xqRh4gh52HUVu9nNiXso7utTKCv/HNK19v5xoWp3Cne23sicp2o") + "VGgKMFSowBFbtr+fhsq0yHv+JxixkL3WLnXcY3xREz7LOzVMoybUCmJzzhnzIsLP") + "iIPdpI1PxFDcnFbdRQIDAQAB\n") + "-----END PUBLIC KEY-----");
     private static var savedOptions_:SharedObject = null;
     public static var toggleHPBar_:Boolean = false;
     public static const skinTypes16:Vector.<int> = new <int>[1027, 0x0404, 1029, 1030];

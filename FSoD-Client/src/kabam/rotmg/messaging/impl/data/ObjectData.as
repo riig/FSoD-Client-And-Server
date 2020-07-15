@@ -12,7 +12,7 @@ public class ObjectData {
     }
 
     public function parseFromInput(_arg_1:IDataInput):void {
-        this.objectType_ = _arg_1.readShort();
+        this.objectType_ = _arg_1.readUnsignedShort();
         this.status_.parseFromInput(_arg_1);
     }
 
